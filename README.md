@@ -43,8 +43,13 @@ Avec la migration des données se posent aussi des questions d’archivage des a
 
 
 > ## Les relations entre les models des BDD
-Des relations de différents types peuvent exister entre les bases de données. Elles sont définies par: 
-* leur cardinalité
+Une relation est un lien entre deux tables, associant des données de la première avec celles de la deuxième.
+
+Trois situations sont possibles :
+
+* les relations peuvent s'établir d'un enregistrement à un seul autre (1 à 1);
+* d'un enregistrement à plusieurs autres ;
+* de plusieurs enregistrements à plusieurs autres.
 
 > ## Les fonctions du CRUD
 Il s'agit d'un système de manipulation de base de données, cet acronyme indique les 4 opérations de base pour gérer tous types de données.
