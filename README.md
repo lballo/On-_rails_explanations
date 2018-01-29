@@ -36,11 +36,7 @@ Exemple:  http://fr.openclassrooms.com/pagedecours.html?cours=ASP.NET&auteur=nic
 La requete GET doit pouvoir etre exécutée à l'infinie et ne doit pas modifier le contenu d'une page. 
 
 > ## Le concept de migration
-Transition de l'ancien système informatique au nouveau. Le point le plus important de la migration des systèmes informatiques est la migration des données. Les migrations peuvent être réalisées au niveau technique (automatiquement) ou organisationnel (manuellement). 
-Le concept de migration prend en compte les quantités, les fréquences et la qualité des données dans l’ancien système ainsi que leur intégration dans le nouveau. Les scénarios de migration possibles sont analysés et évalués, de manière que l’on puisse déterminer les procédures appropriées.
-Les réflexions sur la migration portent sur sa faisabilité, son efficience, sa qualité et son déroulement dans le temps.
-Avec la migration des données se posent aussi des questions d’archivage des anciennes données et de démantèlement du système, auxquelles il faut répondre. Les aspects relatifs à la sécurité et à la protection des données doivent être pris en compte.
-
+Les migrations sont des classes de Ruby qui ont été conçues de façon à simplifier la création et la modification de base de données. La commmande rake est utilisée pour exécuter les migrations et il est possible de revenir en arrière une fois la migration effectuée sur une base de donnée. Le noms des fichiers de migration est horodaté pour s'assurer qu'ils ont été exécuté dans l'ordre de leur création.
 
 > ## Les relations entre les models des BDD
 Une relation est un lien entre deux tables, associant des données de la première avec celles de la deuxième.
